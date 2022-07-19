@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Actionplan from "./Components/Actionplan";
+import Delete from "./Components/Delete";
+import Newplan from "./Components/Newplan";
+import SopAccess from "./Components/SopAccess";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Delete></Delete>
+      <Newplan></Newplan> */}
+      {/* <SopAccess></SopAccess> */}
+      <Actionplan></Actionplan>
     </div>
   );
 }

@@ -1,0 +1,164 @@
+.newplan_back_container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+    background-color: rgba(0, 0, 0, 0.8);
+    animation: fadeIn 0.5s ease;
+}
+
+.newplan_container {
+    box-sizing: border-box;
+
+    position: relative;
+    width: 480px;
+    height: 277px;
+    margin: 0 auto;
+    top: 50px;
+
+    /* Slate/50 */
+
+    background: #F8FAFC;
+    /* Slate/300 */
+
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+}
+
+.newplan_head {
+    position: absolute;
+    width: 217px;
+    height: 32px;
+    left: 24px;
+    top: 32px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+    /* Slate/900 */
+
+    color: #0F172A;
+
+}
+
+.newplan_para {
+    position: absolute;
+    width: 424px;
+    height: 32px;
+    left: 24px;
+    top: 72px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+
+
+    /* Slate/700 */
+
+    color: #334155;
+}
+
+.newplan_input {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+
+    position: absolute;
+    width: 424px;
+    height: 46px;
+    left: 24px;
+    top: 128px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* Slate/300 */
+
+    border: 1px solid #CBD5E1;
+    border-radius: 4px;
+}
+
+.newplan_buttons>button:nth-child(2) {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+
+    position: absolute;
+    width: 144px;
+    height: 40px;
+    left: 152px;
+    top: 198px;
+
+    /* Red/600 */
+    background-color: #F8FAFC;
+    border: 1px solid #DC2626;
+    color: #DC2626;
+    border-radius: 4px;
+}
+
+.newplan_buttons>button:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+
+    position: absolute;
+    width: 144px;
+    height: 40px;
+    left: 304px;
+    top: 198px;
+
+    /* Blue/600 */
+
+    background: #2563EB;
+    border-radius: 4px;
+    border: 0;
+    color: white;
+}
+
+.newplan_input>input {
+
+    /* border: 1px solid black; */
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    padding: 0;
+
+}
+
+.newplan_input>label {
+
+    position: absolute;
+    font-size: 12px;
+    top: 2px;
+    opacity: 0.8;
+
+
+
+}

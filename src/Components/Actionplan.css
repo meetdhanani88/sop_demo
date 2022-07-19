@@ -1,0 +1,447 @@
+.actionplan_container {
+    position: relative;
+    width: 1280px;
+    height: 800px;
+
+    /* White */
+
+    background: #FFFFFF;
+}
+
+.actionplan-main {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionplan_head {
+    position: absolute;
+    width: 195px;
+    height: 44px;
+    left: 120px;
+    top: 144px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    /* Slate/900 */
+
+    color: #0F172A;
+}
+
+.actionplan_SOP {
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    left: 120px;
+    top: 120px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* Slate/500 */
+
+    color: #64748B;
+}
+
+.actionplan_btn1 {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+
+    position: absolute;
+    width: 161px;
+    height: 40px;
+    left: 892px;
+    top: 144px;
+
+    /* Blue/600 */
+
+    border: 1px solid #2563EB;
+    border-radius: 4px;
+}
+
+.actionplan_btn1_title {
+    width: 105px;
+    height: 19px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* Blue/600 */
+
+    color: #2563EB;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.actionplan_btn1_vector {
+    width: 16px;
+    height: 16px;
+    top: -2px;
+
+    /* Inside auto layout */
+    position: relative;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+.actionplan_btn2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    cursor: pointer;
+    position: absolute;
+    width: 119px;
+    height: 40px;
+    left: 1063px;
+    top: 144px;
+
+    /* Blue/600 */
+
+    background: #2563EB;
+    border-radius: 4px;
+}
+
+.actionplan_btn2_title {
+    width: 61px;
+    height: 19px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.actionplan_accordian {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 216px;
+    gap: 15px;
+
+}
+
+
+.actionplan_one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 1065px;
+    height: 40px;
+    background: #F1F5F9;
+    border-radius: 8px;
+}
+
+.action_plan_dmenu {
+    width: 16px;
+    height: 16px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.actionplan_one_title {
+    width: 949px;
+    height: 22px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Slate/800 */
+
+    color: #1E293B;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.action_plan_menu {
+    width: 24px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.action_plan_down {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    width: 35px;
+    height: 35px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.action_plan_dropdown {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 2px;
+    padding: 0;
+
+}
+
+.action_plan_dropdown_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.delete_item {
+    background: #FEF2F2;
+    color: #DC2626;
+    cursor: pointer;
+}
+
+.actionplan_accordian_two {
+
+    position: relative;
+    left: 110px;
+    top: 262px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.actionplan_two {
+    position: relative;
+    width: 1074px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 4px
+}
+
+.actionplan_two_title {
+    flex-grow: 1;
+}
+
+.plusicon {
+    position: absolute;
+    left: -10px;
+    top: 14px;
+}
+
+.line {
+    position: relative;
+    left: 20px;
+}
+
+.pointer {
+    box-sizing: border-box;
+    width: 1018px;
+    height: 32px;
+    background: #F8FAFC;
+    /* Slate/300 */
+    position: relative;
+    border: 1px solid #CBD5E1;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.actionplan_three {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+}
+
+.pointer-div {
+    display: flex;
+
+    flex-direction: column;
+    position: relative;
+
+    left: 20px;
+    top: 12px;
+    gap: 10px;
+
+}
+
+.pointer-title {
+    position: absolute;
+    width: 220px;
+    height: 19px;
+    left: 31px;
+    top: calc(50% - 19px/2 - 0.5px);
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* Blue/700 */
+
+    color: #1D4ED8;
+
+}
+
+.pointer-menu {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 8px;
+    top: 8px;
+
+}
+
+.addpointer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 22px;
+    gap: 8px;
+    width: 121px;
+    height: 32px;
+    margin-left: 88px;
+    margin-bottom: 8px;
+    cursor: pointer;
+
+
+    /* Blue/50 */
+
+    background: #F0F9FF;
+    border-radius: 4px;
+}
+
+.addpointer-text {
+    width: 67px;
+    height: 16px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+
+    /* Blue/600 */
+
+    color: #2563EB;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.addpointer-img {
+    width: 11px;
+    height: 11px;
+
+    border-radius: 1px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.eye-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 962px;
+    top: 6px;
+}
+
+.menu-icon {
+    position: absolute;
+    margin-top: -4px;
+    width: 20px;
+    height: 20px;
+    left: 990px;
+    top: 6px;
+}

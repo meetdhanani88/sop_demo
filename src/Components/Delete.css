@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.delete_container_fluid {
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+    background-color: rgba(0, 0, 0, 0.8);
+    animation: fadeIn 0.5s ease;
+}
+
+.delete_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: relative;
+    width: 480px;
+    height: 184px;
+    background-color: #F8FAFC;
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    margin: 0 auto;
+    top: 50px;
+
+}
+
+.delete_container_para {
+    position: absolute;
+    width: 424px;
+    height: 16px;
+    left: 24px;
+    top: 72px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 150%;
+    color: #334155;
+}
+
+.delete_container_buttons>button:nth-child(1) {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    background-color: #F8FAFC;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+
+    position: absolute;
+    width: 144px;
+    height: 40px;
+    left: 152px;
+    top: 112px;
+
+    /* Red/600 */
+
+    border: 1px solid #DC2626;
+    border-radius: 4px
+}
+
+.delete_container_head {
+    position: absolute;
+    width: 393px;
+    height: 33px;
+    left: 24px;
+    top: 32px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+
+    color: #0F172A;
+}
+
+.delete_container_buttons>button:nth-child(2) {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+
+    position: absolute;
+    width: 144px;
+    height: 40px;
+    left: 304px;
+    top: 112px;
+
+    /* Blue/600 */
+    background-color: #F8FAFC;
+    border: 1px solid #2563EB;
+    border-radius: 4px;
+}
