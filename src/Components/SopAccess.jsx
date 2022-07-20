@@ -6,13 +6,17 @@ import close from "../images/bi_close.png";
 
 let membernames = ["Aryan", "Karan", "kisan", "Rishi"];
 function SopAccess({ setshowsopaccess }) {
+  //selected person state based on category
   const [marketselected, setmarketselected] = useState("");
   const [salesselected, setsalesselected] = useState("");
   const [designselected, setdesignselected] = useState("");
 
+  //select person
   function select(i, setfun) {
     setfun((pre) => [...new Set([...pre, membernames[i]])]);
   }
+
+  //delete person after selection
   function remove(e, i, setfun, setdata) {
     e.stopPropagation();
     if (setdata.includes(membernames[i])) {

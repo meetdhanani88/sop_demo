@@ -14,6 +14,7 @@ import Newplan from "./Newplan";
 import SopAccess from "./SopAccess";
 
 function Actionplan() {
+  // initial plan values
   const [actionplan_one, setactionplanone] = useState([
     "Marketing",
     "Design",
@@ -23,13 +24,20 @@ function Actionplan() {
     "Wordpress",
     "Google Drive",
   ]);
+
+  //level states for accordian
   const [showlevel1, setshowlevel1] = useState(null);
   const [showlevel2, setshowlevel2] = useState(null);
+
+  //other element show/hide state
   const [showdelete, setshowdelete] = useState(false);
   const [shownewplan, setshownewplan] = useState(false);
   const [showsopaccess, setshowsopaccess] = useState(false);
+
+  //index state for delete
   const [deleteindex, setdeleteindex] = useState();
 
+  //level-1 accordian
   function handellvl1(index) {
     setshowlevel1((pre) => {
       if (index === pre) {
@@ -39,7 +47,7 @@ function Actionplan() {
       }
     });
   }
-
+  //level-2 accordian
   function handlelvl2(index) {
     setshowlevel2((pre) => {
       if (index === pre) {

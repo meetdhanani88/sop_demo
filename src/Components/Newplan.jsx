@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import "./Newplan.css";
 
 function Newplan({ setshownewplan, setactionplanone }) {
+  //Getting input value
   const [val, setval] = useState("");
+
+  //make new plan based on value
   function create() {
     setactionplanone((pre) => [...pre, val]);
     setshownewplan(false);

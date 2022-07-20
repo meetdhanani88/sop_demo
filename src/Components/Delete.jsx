@@ -7,6 +7,7 @@ function Delete({
   deleteindex,
   setactionplanone,
 }) {
+  //handel delete items
   function deletehandel() {
     const arr = actionplan_one.filter(
       (item) => item !== actionplan_one[deleteindex]
